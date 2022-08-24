@@ -1,0 +1,61 @@
+header .branding {
+  float: right;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  header .branding {
+    float: right;
+    text-align: right;
+  }
+}
+@media (min-width: 1200px) {
+  header .branding {
+    float: right;
+  }
+}
+header .navbar {
+  float: right;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  header .navbar {
+    float: right;
+  }
+}
+@media (min-width: 1200px) {
+  header .navbar {
+    float: right;
+  }
+}
+header .navbar li {
+  float: right;
+}
+
+.services .services-boxes .service-box {
+  float: right;
+}
+
+.players .players-boxes .player-box {
+  float: right;
+}
+
+.lorem-ispum .lorem-boxes .lorem-box {
+  float: right;
+}
+
+footer .main-footer .gallerly {
+  float: right;
+}
+footer .main-footer .info {
+  float: right;
+}
+footer .main-footer .contact {
+  float: right;
+}
+footer .copyright .copy-text {
+  float: right;
+}
+footer .copyright .copy-author {
+  float: right;
+}
+footer .copyright .copy-author span {
+  color: #e2494c;
+}/*# sourceMappingURL=main-rtl.css.map */

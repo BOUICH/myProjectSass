@@ -1,0 +1,62 @@
+// // 
+
+
+// //media query
+
+
+// // Overlay mixin
+
+// @mixin overlay {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+
+// }
+
+// // Prefixes mixin
+
+// // @mixin prefixer($property, $value, $prefixes:()) {
+// //         @each $prefix in $prefixes {
+// //             #{'-' + $prefix + '-' + $property}: $value;
+// //         }
+// //         #{$property}: $value;
+// //     }
+
+// // Animation mixin
+
+// // @mixin keyFrame ($animation-name) {
+// //     @-webkit-keyframes #{$animation-name} {
+// //         @content;
+// //     }
+// // }
+
+
+// Media queries mixin
+
+@mixin breakpoints($point) {
+    @if $point==mobile {
+        @media (max-width: 767px) {
+            @content;
+        }
+    }
+
+    @else if $point==small {
+        @media (min-width: 768px) and (max-width: 991px) {
+            @content;
+        }
+    }
+
+    @else if $point==medium {
+        @media (min-width: 992px) and (max-width: 1199px) {
+            @content;
+        }
+    }
+
+    @else if $point==large {
+        @media (min-width: 1200px) {
+            @content;
+        }
+    }
+}

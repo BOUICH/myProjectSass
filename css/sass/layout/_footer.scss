@@ -1,0 +1,125 @@
+// Start Footer
+
+footer {
+
+    background-color: $greyColor;
+    // padding: 10px 10px;
+
+    .main-footer {
+
+        .gallerly {
+            float: $float-left;
+            width: 50%;
+            margin-bottom: 30px;
+
+            .section-title {
+                color: #444;
+                font-weight: normal;
+            }
+
+            .img-box {
+                display: grid;
+                grid-template-columns: 25% 75%;
+
+                img {
+                    border: 5px solid #999;
+                    width: 100%;
+                    height: 100%;
+                }
+
+                .text {
+
+                    margin-left: 15px;
+                    margin-right: 15px;
+
+                    h4 {
+                        color: $redColor;
+                        margin: 10px 0 5px 0;
+                    }
+
+                    p {
+                        color: #999;
+                        line-height: 1.8;
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+
+        .info {
+            float: $float-left;
+            width: 25%;
+
+            ul {
+                color: #999;
+
+                li {
+                    margin-bottom: 6px;
+                }
+
+            }
+
+            h4 {
+
+                font-weight: bold;
+                margin: 5px 0;
+            }
+
+            P {
+                color: #999;
+                line-height: 0.5px;
+            }
+        }
+
+        .contact {
+            float: $float-left;
+            width: 25%;
+
+            h3 {
+                margin-bottom: 20px;
+            }
+
+            input[type="text"],
+            input[type="email"],
+            textarea {
+                border: 1px solid #888;
+                padding: 10px;
+                margin-bottom: 5px;
+                border-radius: 5px;
+                width: 100%;
+            }
+
+            textarea {
+                height: 120px;
+            }
+        }
+    }
+
+    .copyright {
+        overflow: hidden;
+        width: 100%;
+        margin-top: 15px;
+        padding: 15px 0;
+        border-top: 1px solid #c5c5c5;
+
+        .copy-text {
+            width: 50%;
+            float: left;
+            color: #888;
+        }
+
+        .copy-author {
+            width: 50%;
+            float: left;
+            color: #888;
+
+            span {
+                color: $redColor;
+            }
+        }
+
+
+    }
+}
+
+// End Footer
